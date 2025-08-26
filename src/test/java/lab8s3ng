@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+  
+  <test name="Lab 3 and Lab 4 Tests">
+    <classes>
+      <class name="mypackage.lab8_testNG1"/>
+      <class name="mypackage.lab8_testNG2"/>
+    </classes>
+  </test>
+  
+</suite>
