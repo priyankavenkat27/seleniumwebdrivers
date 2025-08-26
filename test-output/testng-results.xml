@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-26T13:09:59 IST" name="CrossBrowserSuite" finished-at="2025-08-26T13:10:41 IST" duration-ms="42053">
+    <groups>
+    </groups>
+    <test started-at="2025-08-26T13:09:59 IST" name="ChromeTest" finished-at="2025-08-26T13:10:06 IST" duration-ms="7717">
+      <class name="mypackage.crossbrowsertestng">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:mypackage.crossbrowsertestng@6a6cb05c]" started-at="2025-08-26T13:09:59 IST" name="beforeMethod" finished-at="2025-08-26T13:10:04 IST" duration-ms="5313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openSite()[pri:0, instance:mypackage.crossbrowsertestng@6a6cb05c]" started-at="2025-08-26T13:10:04 IST" name="openSite" finished-at="2025-08-26T13:10:06 IST" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:mypackage.crossbrowsertestng@6a6cb05c]" started-at="2025-08-26T13:10:06 IST" name="afterMethod" finished-at="2025-08-26T13:10:06 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- mypackage.crossbrowsertestng -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-08-26T13:10:06 IST" name="EdgeTest" finished-at="2025-08-26T13:10:29 IST" duration-ms="22781">
+      <class name="mypackage.crossbrowsertestng">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:mypackage.crossbrowsertestng@17f7cd29]" started-at="2025-08-26T13:10:06 IST" name="beforeMethod" finished-at="2025-08-26T13:10:28 IST" duration-ms="21847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openSite()[pri:0, instance:mypackage.crossbrowsertestng@17f7cd29]" started-at="2025-08-26T13:10:28 IST" name="openSite" finished-at="2025-08-26T13:10:29 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:mypackage.crossbrowsertestng@17f7cd29]" started-at="2025-08-26T13:10:29 IST" name="afterMethod" finished-at="2025-08-26T13:10:29 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- mypackage.crossbrowsertestng -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2025-08-26T13:10:29 IST" name="FireFoxTest" finished-at="2025-08-26T13:10:41 IST" duration-ms="11501">
+      <class name="mypackage.crossbrowsertestng">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:mypackage.crossbrowsertestng@13b6aecc]" started-at="2025-08-26T13:10:29 IST" name="beforeMethod" finished-at="2025-08-26T13:10:37 IST" duration-ms="8181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openSite()[pri:0, instance:mypackage.crossbrowsertestng@13b6aecc]" started-at="2025-08-26T13:10:37 IST" name="openSite" finished-at="2025-08-26T13:10:38 IST" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:mypackage.crossbrowsertestng@13b6aecc]" started-at="2025-08-26T13:10:38 IST" name="afterMethod" finished-at="2025-08-26T13:10:41 IST" duration-ms="2239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- mypackage.crossbrowsertestng -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- CrossBrowserSuite -->
+</testng-results>
